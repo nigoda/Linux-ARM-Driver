@@ -1,0 +1,17 @@
+gcc filename.c               --> a.out(compile)
+gcc -o file filename.c       --> file(compile)
+./a.out or ./file   (Execution)
+gcc filename.c Werror -o file -->file(compile)
+
+---------------------gdb----------------------
+gcc -g file.c -o file  (Debug)
+gdb file
+
+b       - Breakpoint
+r       - run
+n       - next
+p (variable)
+kill    - close
+quit    - quit gdb and rum from begining
+set var (variable name) = value
+c       - continue

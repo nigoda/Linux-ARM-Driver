@@ -1,0 +1,50 @@
+pwd           - Present working directory
+su or sudo su - @root
+ls            - list
+cd            - move
+cd /          - to move inside root directory
+cd ~          - move to home directory
+cd dir1/dir2/dir3 - to move into subdirectory of main directory
+
+FOLDER CMD
+mkdir fldrname     - Brifly list directory content
+rm -rf fldrname    - Remove non Empty directory
+rm fldrname        - Empty directory
+
+FILE CMD
+vim filename       - Create file esp:wq {save} ; i {insert}
+touch filename     - ---" "-----
+rm filename        - Remove file
+tail -n filename   - Display first n lines in the file
+cat filename       - Display the content of the file
+
+ECHO
+echo -e "HAI \bHOW ARE \bYOU" {enable the interpretation of backslash esp}
+echo -n "HAI \bHOW ARE \bYOU" {used to omite echoing trailing newline}
+\b - Remove space
+\c - String after this will e omitted and contines in the same line
+\n - newline
+\t - horizontal tab
+\v - vertical tab
+\r - String after that will be displayed
+
+Edit tool
+:q!                - quit file without saving
+:wq                - Save file
+dnw                - delete 'n' consecutive words
+p                  - paste
+nyy                - copy 'n' line
+ynw                - copy 'n' consecutive words
+/ "keyword"        - search the keyword in document & "n" for next search 
+U                  - Undo
+Ctrl+R             - Redo
+dd                 - delete
+
+cp [source] [destination] - copy
+mv [source] [destination] - move
+date     - show date
+uptime   - Running duration since powered
+who      - who are logged into the system
+whoami   - login username
+cal      - calender
+ 

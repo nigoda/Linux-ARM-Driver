@@ -1,0 +1,18 @@
+* gcc filename.c -->a.out(complie)
+* gcc -o filename.c -->file(complie)
+* ./a.our or ./file (Execution)
+* gcc filename.c -Werror -0 file -->file(compile)
+
+---------gdb---------------
+* gcc -g file.c -o file(Debug)
+* gdb file
+
+--------command------------
+* b    - Breakpoint
+* r    - run
+* n    - next
+* P (variable)
+* kill - close 
+* quit - quit gdb and run from begining
+* set var (variable name) = value
+* c    - continue
