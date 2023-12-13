@@ -1,0 +1,11 @@
+COMMANDS For Loading And Unloading The Kernel
+• Create Makefile - obj-m := hello-l.o
+
+• make -C /lib/modules/$ (uname -r) /build M=$PWD modules
+• insmod hello-l.ko
+• lsmod
+• sudo dmesg -c
+• rmmod hello-I.ko
+• ismod sudo dmesg -c
+• sudo dmesg -t | tail -7
+• sudo dmesg -T
