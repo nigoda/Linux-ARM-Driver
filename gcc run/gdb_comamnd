@@ -1,5 +1,5 @@
 * gcc filename.c -->a.out(complie)
-* gcc -o filename.c -->file(complie)
+* gcc -o file filename.c -->file(complie)
 * ./a.our or ./file (Execution)
 * gcc filename.c -Werror -0 file -->file(compile)
 
